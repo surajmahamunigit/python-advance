@@ -1,4 +1,6 @@
 # inheriting properties from multiple class into one class
+# if same method is inherited from parents the order of
+# parent classes in declaration in child class matters   --> class C(A,B)
 
 class A:
     def m1(self):
