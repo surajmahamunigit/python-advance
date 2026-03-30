@@ -15,3 +15,13 @@ b3=Book(300)
 print("Total no of pages: ",b1+b2)
 
 # b1+b2+b3 not possible
+
+############  Magic Methods #########
+
+# +  --> __add()__
+# - --> __sum()__
+# * --> __mul()__
+# / --> __div()__
+# //  --> _floordiv()__
+# % --> __mod()__
+# ** --> __pow()__
