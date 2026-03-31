@@ -21,6 +21,7 @@ t.m2()     # 10
 print(t._a)     # should be invalid but its not
 
 #### In Python, modifiers are just for naming conventions, they are not built on basic level.
-# we can access private and protected members from outside of the class
+# we can access private and protected members from outside of the class.
+# They are just there for good programming practice
 
 
