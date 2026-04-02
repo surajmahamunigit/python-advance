@@ -8,7 +8,7 @@
 class User:
 
     def validate(self,age):
-        if age>=18 and age<110:
+        if 18 <= age < 110:
             print("You are old enough")
         else:
             raise InvalidAge("Not eligible")
