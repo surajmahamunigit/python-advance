@@ -18,6 +18,6 @@ l1=[10,20,30]
 print(l1.pop(1)) # 20
 print(l1)        # [10,30] --> element at index 1 is gone
 
-print(l1.pop(100000))  #IndexError: pop index out of range
+# print(l1.pop(100000))  #IndexError: pop index out of range
 
 
