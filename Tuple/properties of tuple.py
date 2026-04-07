@@ -21,3 +21,6 @@ t9=10,20,30,
 # tuple are immutable
 t1=(10,20,30,)
 #t1(1)=999  --> TypeError
+
+t4=eval(input("enter tuple:"))
+print(t4)
