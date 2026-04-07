@@ -1,4 +1,4 @@
-#write a program to find second largest number without using max or sorted
+#write a program to find second-largest number without using max or sorted
 
 #user input
 list1=[100,10,20,30,90]
