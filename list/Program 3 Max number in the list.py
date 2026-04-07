@@ -12,3 +12,6 @@ for num in list1:
         max_num=num
 
 print(max_num)  # o/p: 900
+
+
+
