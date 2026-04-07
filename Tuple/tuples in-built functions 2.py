@@ -21,3 +21,9 @@ print(list2)  # returns list object --> [100, 200, 400, 500, 900]
 
 sorted_t2=tuple(sorted(t2)) # --> (100, 200, 400, 500, 900)
 print(sorted_t2)
+
+
+############# min(), max()
+
+print(min(t2))  # 100
+print(max(t2))  # 900
