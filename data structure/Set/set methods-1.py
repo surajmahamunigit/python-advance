@@ -4,6 +4,7 @@ s2={10,30,40}
 #len():
 print(len(s1))  # 4
 
+############## lets see how to add elements in set #############
 
 #add():
 s1.add(10)
