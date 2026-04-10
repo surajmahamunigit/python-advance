@@ -20,3 +20,15 @@ print(dict1.pop(100)) # 'A'
 print(dict1.pop(800,"Key Not Present"))  # Key Not Present
 
 
+########## popitem() ############
+
+dict1={100:'A',200:'B',300:'C'}
+
+print(dict1.popitem())  # (300, 'C')
+print(dict1)  # {100: 'A', 200: 'B'}  --> C gone
+
+
+########### clear()  #############
+dict1={100:'A',200:'B',300:'C'}
+dict1.clear()
+print(dict1)  # {}
