@@ -2,11 +2,6 @@ def calculate_total_marks(student_marks):
     """
     Calculate the sum of all student marks.
 
-    Args:
-        student_marks (dict): Dictionary with student names as keys and marks as values
-
-    Returns:
-        int: Total marks
     """
     total_marks = 0
 
