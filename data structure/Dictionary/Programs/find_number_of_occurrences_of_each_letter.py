@@ -12,7 +12,7 @@ for letter in input_string:
 
 # Print the output
 for letter,count in char_frequency.items():
-    print(letter,'->',count)
+    print(f"{letter} -> {count}")
 
 
 # Output:
