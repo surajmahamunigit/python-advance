@@ -17,7 +17,7 @@ def variable_length_arg(*arguments):
 
     sum=0
     for arg in arguments:
-        if type(arg)==tuple or type(arg)==list:
+        if isinstance(arg,(tuple,list,set)):
             break
         sum=sum+arg
 
