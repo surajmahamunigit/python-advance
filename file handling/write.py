@@ -6,11 +6,13 @@ def write_file():
     f=open('write.txt','w')
 
     # Write data to file using write()
+    f.write('Writing data to file using write function \n')
     f.write('Raj \n')
     f.write('Kumar \n')
     f.write('Dennis \n')
     f.write('Claire \n')
     print('Finished writing data to file using write() function.')
+    f.close()
 
     # Write data using writelines()
 
